@@ -128,6 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64602107a8b34bb4f8b6bf852e59d80e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clotheManager: {fileID: 3418093595253872989}
   myAnimator: {fileID: 1671676492025028118}
 --- !u!114 &4181821416845462368
 MonoBehaviour:
@@ -257,7 +258,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -398,11 +399,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c08e0d51647be740954e3d138c1187f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  headRenderer: {fileID: 1426876267354747949}
   chestRenderer: {fileID: 6703673507698910900}
-  chestSprites:
-  - {fileID: -4911229781064744400, guid: b6658698020227f47a91402b8856edd7, type: 3}
-  - {fileID: 846928267043835784, guid: b6658698020227f47a91402b8856edd7, type: 3}
-  - {fileID: 5325568213995751680, guid: b6658698020227f47a91402b8856edd7, type: 3}
+  legRenderer: {fileID: 3750216325954309412}
+  activeHead: {fileID: 0}
+  activeChest: {fileID: 11400000, guid: f0e7a81d7770eba498708778c273ce4d, type: 2}
+  activeLegs: {fileID: 11400000, guid: 5936fb3d15dc68d4d9ab8f8cfc03a17d, type: 2}
 --- !u!212 &6869906981032235611
 SpriteRenderer:
   m_ObjectHideFlags: 0

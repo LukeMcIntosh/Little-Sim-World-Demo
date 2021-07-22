@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b82cae480c50e9142a8e7322d175b733, type: 3}
+  m_Name: Blue Chest
+  m_EditorClassIdentifier: 
+  myItemSlot: 1
+  spritesWithDirctions:
+  - myDirection: 1
+    spritesForMyDirection:
+    - {fileID: -4911229781064744400, guid: b6658698020227f47a91402b8856edd7, type: 3}
+    - {fileID: 846928267043835784, guid: b6658698020227f47a91402b8856edd7, type: 3}
+    - {fileID: 5325568213995751680, guid: b6658698020227f47a91402b8856edd7, type: 3}
+  - myDirection: 0
+    spritesForMyDirection:
+    - {fileID: 3711906006023036056, guid: b6658698020227f47a91402b8856edd7, type: 3}
+    - {fileID: -5556016898327426413, guid: b6658698020227f47a91402b8856edd7, type: 3}
+    - {fileID: 1459422356529962241, guid: b6658698020227f47a91402b8856edd7, type: 3}
+  - myDirection: 2
+    spritesForMyDirection:
+    - {fileID: -7366568060783436624, guid: b6658698020227f47a91402b8856edd7, type: 3}
+    - {fileID: 4587118888023297636, guid: b6658698020227f47a91402b8856edd7, type: 3}
+    - {fileID: -2539536242232696022, guid: b6658698020227f47a91402b8856edd7, type: 3}
+  - myDirection: 3
+    spritesForMyDirection:
+    - {fileID: -2185081845875359024, guid: b6658698020227f47a91402b8856edd7, type: 3}
+    - {fileID: -4700230695062066402, guid: b6658698020227f47a91402b8856edd7, type: 3}
+    - {fileID: 3329005496903479253, guid: b6658698020227f47a91402b8856edd7, type: 3}

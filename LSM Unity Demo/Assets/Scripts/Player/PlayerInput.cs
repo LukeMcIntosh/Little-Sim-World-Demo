@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class PlayerInput : MonoBehaviour
 {
+    public PlayerClothingManager clotheManager;
     [SerializeField] private Animator myAnimator = new Animator();
     private Vector2 myMovementInput = new Vector2();
 
-    private Vector3 startScale;
     private void Start()
     {
-        startScale = transform.localScale;
     }
 
     private void Update()
@@ -21,7 +20,7 @@ public class PlayerInput : MonoBehaviour
         {
             myAnimator.SetBool("W", true);
             myAnimator.SetTrigger("Trigger W");
-
+            clotheManager.SetCurrentInput(MOVE_DIRECTION.UP);
         }
         if(Input.GetKeyUp(KeyCode.W))
         {
@@ -32,7 +31,7 @@ public class PlayerInput : MonoBehaviour
         {
             myAnimator.SetBool("S", true);
             myAnimator.SetTrigger("Trigger S");
-
+            clotheManager.SetCurrentInput(MOVE_DIRECTION.DOWN);
         }
         if (Input.GetKeyUp(KeyCode.S))
         {
@@ -42,11 +41,10 @@ public class PlayerInput : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.D))
         {
-            transform.localScale = startScale;
 
             myAnimator.SetBool("D", true);
             myAnimator.SetTrigger("Trigger D");
-
+            clotheManager.SetCurrentInput(MOVE_DIRECTION.RIGHT);
         }
         if (Input.GetKeyUp(KeyCode.D))
         {
@@ -56,18 +54,16 @@ public class PlayerInput : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.A))
         {
-            transform.localScale = new Vector3(startScale.x *-1, startScale.y, startScale.z);
+           
 
-            myAnimator.SetBool("D", true);
-            myAnimator.SetTrigger("Trigger D");
+            myAnimator.SetBool("A", true);
+            myAnimator.SetTrigger("Trigger A");
+            clotheManager.SetCurrentInput(MOVE_DIRECTION.LEFT);
 
         }
         if (Input.GetKeyUp(KeyCode.A))
         {
-            if (!Input.GetKey(KeyCode.D))
-            {
-                myAnimator.SetBool("D", false);
-            }
+             myAnimator.SetBool("A", false);
         }
 
     }
