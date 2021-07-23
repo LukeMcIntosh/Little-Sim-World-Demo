@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: b6658698020227f47a91402b8856edd7
+guid: 82706f7a9ee84634b82c2440b71ce635
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4911229781064744400
-    second: Blue_Chest_Spritesheet_0
+      213: 4430949681732697518
+    second: Blue_Legs_Spritesheet_0
   - first:
-      213: 846928267043835784
-    second: Blue_Chest_Spritesheet_1
+      213: 4572555445896874485
+    second: Blue_Legs_Spritesheet_1
   - first:
-      213: 5325568213995751680
-    second: Blue_Chest_Spritesheet_2
+      213: -2501657738521633269
+    second: Blue_Legs_Spritesheet_2
   - first:
-      213: -2185081845875359024
-    second: Blue_Chest_Spritesheet_3
+      213: 9038066347991128460
+    second: Blue_Legs_Spritesheet_3
   - first:
-      213: -4700230695062066402
-    second: Blue_Chest_Spritesheet_4
+      213: -4658310029648816915
+    second: Blue_Legs_Spritesheet_4
   - first:
-      213: 3329005496903479253
-    second: Blue_Chest_Spritesheet_5
+      213: 4546232504855498920
+    second: Blue_Legs_Spritesheet_5
   - first:
-      213: 3711906006023036056
-    second: Blue_Chest_Spritesheet_6
+      213: 2418993567362397367
+    second: Blue_Legs_Spritesheet_6
   - first:
-      213: -5556016898327426413
-    second: Blue_Chest_Spritesheet_7
+      213: 6911642251954851691
+    second: Blue_Legs_Spritesheet_7
   - first:
-      213: 1459422356529962241
-    second: Blue_Chest_Spritesheet_8
+      213: -3250170998846706830
+    second: Blue_Legs_Spritesheet_8
   - first:
-      213: -7366568060783436624
-    second: Blue_Chest_Spritesheet_9
+      213: -9096771143230018506
+    second: Blue_Legs_Spritesheet_9
   - first:
-      213: 4587118888023297636
-    second: Blue_Chest_Spritesheet_10
+      213: -5321125275877429811
+    second: Blue_Legs_Spritesheet_10
   - first:
-      213: -2539536242232696022
-    second: Blue_Chest_Spritesheet_11
+      213: -4668958810315368288
+    second: Blue_Legs_Spritesheet_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -135,253 +135,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Blue_Chest_Spritesheet_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 50
-        width: 19
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0320151f88ec7dbb0800000000000000
-      internalID: -4911229781064744400
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue_Chest_Spritesheet_1
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 50
-        width: 19
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88f826b85c4e0cb00800000000000000
-      internalID: 846928267043835784
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue_Chest_Spritesheet_2
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 51
-        width: 19
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0090456131838e940800000000000000
-      internalID: 5325568213995751680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue_Chest_Spritesheet_3
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 33
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d2c17363a70da1e0800000000000000
-      internalID: -2185081845875359024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue_Chest_Spritesheet_4
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 33
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e1b2072f51d65ceb0800000000000000
-      internalID: -4700230695062066402
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue_Chest_Spritesheet_5
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 33
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5df21429cd0033e20800000000000000
-      internalID: 3329005496903479253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue_Chest_Spritesheet_6
+      name: Blue_Legs_Spritesheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 15
-        width: 18
-        height: 12
+        y: 53
+        width: 13
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89c54a098d6538330800000000000000
-      internalID: 3711906006023036056
+      spriteID: eadbe456245ed7d30800000000000000
+      internalID: 4430949681732697518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue_Chest_Spritesheet_7
+      name: Blue_Legs_Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 21
-        y: 14
-        width: 19
-        height: 12
+        x: 22
+        y: 53
+        width: 13
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39a4029611015e2b0800000000000000
-      internalID: -5556016898327426413
+      spriteID: 5f9067c93faf47f30800000000000000
+      internalID: 4572555445896874485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue_Chest_Spritesheet_8
+      name: Blue_Legs_Spritesheet_2
       rect:
         serializedVersion: 2
         x: 44
-        y: 14
-        width: 19
-        height: 12
+        y: 53
+        width: 13
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10d5b32a6e8e04410800000000000000
-      internalID: 1459422356529962241
+      spriteID: b0e9fc98a83584dd0800000000000000
+      internalID: -2501657738521633269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue_Chest_Spritesheet_9
+      name: Blue_Legs_Spritesheet_3
       rect:
         serializedVersion: 2
-        x: 6
-        y: 0
-        width: 10
-        height: 10
+        x: 3
+        y: 36
+        width: 12
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bcd343e061b4c990800000000000000
-      internalID: -7366568060783436624
+      spriteID: c895c603579ad6d70800000000000000
+      internalID: 9038066347991128460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue_Chest_Spritesheet_10
+      name: Blue_Legs_Spritesheet_4
       rect:
         serializedVersion: 2
-        x: 27
-        y: 0
+        x: 24
+        y: 36
         width: 10
-        height: 10
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46e0d173358b8af30800000000000000
-      internalID: 4587118888023297636
+      spriteID: de4942575bb5a5fb0800000000000000
+      internalID: -4658310029648816915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue_Chest_Spritesheet_11
+      name: Blue_Legs_Spritesheet_5
       rect:
         serializedVersion: 2
-        x: 47
-        y: 0
-        width: 10
-        height: 10
+        x: 45
+        y: 36
+        width: 12
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a236d732e31c1ccd0800000000000000
-      internalID: -2539536242232696022
+      spriteID: 8a01f3e4066771f30800000000000000
+      internalID: 4546232504855498920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Legs_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 18
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4379845ddf19120800000000000000
+      internalID: 2418993567362397367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Legs_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 18
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f895a32061bef50800000000000000
+      internalID: 6911642251954851691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Legs_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 18
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b277a52b215e2d0800000000000000
+      internalID: -3250170998846706830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Legs_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c20cc87d6c1c180800000000000000
+      internalID: -9096771143230018506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Legs_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd29fd01c09726b0800000000000000
+      internalID: -5321125275877429811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Legs_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8d83003b6843fb0800000000000000
+      internalID: -4668958810315368288
       vertices: []
       indices: 
       edges: []

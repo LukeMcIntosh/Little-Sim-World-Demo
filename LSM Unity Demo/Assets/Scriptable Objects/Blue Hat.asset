@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b82cae480c50e9142a8e7322d175b733, type: 3}
+  m_Name: Blue Hat
+  m_EditorClassIdentifier: 
+  myItemSlot: 0
+  spritesWithDirctions:
+  - myDirection: 0
+    spritesForMyDirection:
+    - {fileID: 9152132719733109447, guid: 813b4d4d778de3c499251b505b8931aa, type: 3}
+  - myDirection: 1
+    spritesForMyDirection:
+    - {fileID: 4387344203173417516, guid: 813b4d4d778de3c499251b505b8931aa, type: 3}
+  - myDirection: 2
+    spritesForMyDirection:
+    - {fileID: -2442211838649966799, guid: 813b4d4d778de3c499251b505b8931aa, type: 3}
+  - myDirection: 3
+    spritesForMyDirection:
+    - {fileID: -4780368043870515710, guid: 813b4d4d778de3c499251b505b8931aa, type: 3}

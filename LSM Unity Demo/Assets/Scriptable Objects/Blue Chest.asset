@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b82cae480c50e9142a8e7322d175b733, type: 3}
   m_Name: Blue Chest
   m_EditorClassIdentifier: 
+  myId: 1
   myItemSlot: 1
   spritesWithDirctions:
   - myDirection: 1

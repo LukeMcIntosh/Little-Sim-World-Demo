@@ -22,13 +22,13 @@ AnimationClip:
     - time: 0
       value: {fileID: -6680335082010675172, guid: d66078e5075a7c844beca364430ded52,
         type: 3}
-    - time: 0.11666667
+    - time: 0.13333334
       value: {fileID: -6166541942502359979, guid: d66078e5075a7c844beca364430ded52,
         type: 3}
     - time: 0.25
       value: {fileID: -8936341700863015091, guid: d66078e5075a7c844beca364430ded52,
         type: 3}
-    - time: 0.4
+    - time: 0.36666667
       value: {fileID: -6166541942502359979, guid: d66078e5075a7c844beca364430ded52,
         type: 3}
     - time: 0.5
@@ -90,7 +90,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.11666667
+  - time: 0.13333334
     functionName: AssignActiveClotheSprite
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -104,7 +104,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 2
     messageOptions: 0
-  - time: 0.4
+  - time: 0.36666667
     functionName: AssignActiveClotheSprite
     data: 
     objectReferenceParameter: {fileID: 0}

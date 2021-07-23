@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 829c09dc7ba13594fa0e00c3755f5978
+guid: b6658698020227f47a91402b8856edd7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -458863659251637116
-    second: Player_Walking_Arms_0
+      213: -4911229781064744400
+    second: Blue_Chest_Spritesheet_0
   - first:
-      213: -27699180452562069
-    second: Player_Walking_Arms_1
+      213: 846928267043835784
+    second: Blue_Chest_Spritesheet_1
   - first:
-      213: 5020926794982497563
-    second: Player_Walking_Arms_2
+      213: 5325568213995751680
+    second: Blue_Chest_Spritesheet_2
   - first:
-      213: 6208450498176494683
-    second: Player_Walking_Arms_3
+      213: -2185081845875359024
+    second: Blue_Chest_Spritesheet_3
   - first:
-      213: 5832969472470211840
-    second: Player_Walking_Arms_4
+      213: -4700230695062066402
+    second: Blue_Chest_Spritesheet_4
   - first:
-      213: -8018871750381077210
-    second: Player_Walking_Arms_5
+      213: 3329005496903479253
+    second: Blue_Chest_Spritesheet_5
   - first:
-      213: -2518103700451055503
-    second: Player_Walking_Arms_6
+      213: 3711906006023036056
+    second: Blue_Chest_Spritesheet_6
   - first:
-      213: -1305994166648656465
-    second: Player_Walking_Arms_7
+      213: -5556016898327426413
+    second: Blue_Chest_Spritesheet_7
   - first:
-      213: -5380031612279334977
-    second: Player_Walking_Arms_8
+      213: 1459422356529962241
+    second: Blue_Chest_Spritesheet_8
   - first:
-      213: 1109604953918688878
-    second: Player_Walking_Arms_9
+      213: -7366568060783436624
+    second: Blue_Chest_Spritesheet_9
   - first:
-      213: -5052445129207743324
-    second: Player_Walking_Arms_10
+      213: 4587118888023297636
+    second: Blue_Chest_Spritesheet_10
   - first:
-      213: -7686433650452957306
-    second: Player_Walking_Arms_11
+      213: -2539536242232696022
+    second: Blue_Chest_Spritesheet_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -135,13 +135,139 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Walking_Arms_0
+      name: Blue_Chest_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 50
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0320151f88ec7dbb0800000000000000
+      internalID: -4911229781064744400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Chest_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 50
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f826b85c4e0cb00800000000000000
+      internalID: 846928267043835784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Chest_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 51
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0090456131838e940800000000000000
+      internalID: 5325568213995751680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Chest_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 33
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2c17363a70da1e0800000000000000
+      internalID: -2185081845875359024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Chest_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 33
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b2072f51d65ceb0800000000000000
+      internalID: -4700230695062066402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Chest_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 33
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df21429cd0033e20800000000000000
+      internalID: 3329005496903479253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Chest_Spritesheet_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 28
-        height: 37
+        y: 15
+        width: 18
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +275,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48468fddee9c1a9f0800000000000000
-      internalID: -458863659251637116
+      spriteID: 89c54a098d6538330800000000000000
+      internalID: 3711906006023036056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Walking_Arms_1
+      name: Blue_Chest_Spritesheet_7
       rect:
         serializedVersion: 2
-        x: 28
-        y: 0
-        width: 28
-        height: 37
+        x: 21
+        y: 14
+        width: 19
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +296,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6b3e8cfdb79d9ff0800000000000000
-      internalID: -27699180452562069
+      spriteID: 39a4029611015e2b0800000000000000
+      internalID: -5556016898327426413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Walking_Arms_2
+      name: Blue_Chest_Spritesheet_8
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 24
-        height: 37
+        x: 44
+        y: 14
+        width: 19
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,20 +317,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1d1c2a615aeda540800000000000000
-      internalID: 5020926794982497563
+      spriteID: 10d5b32a6e8e04410800000000000000
+      internalID: 1459422356529962241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Walking_Arms_3
+      name: Blue_Chest_Spritesheet_9
       rect:
         serializedVersion: 2
-        x: 89
+        x: 5
         y: 0
-        width: 28
-        height: 37
+        width: 11
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,20 +338,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5c286595d8d82650800000000000000
-      internalID: 6208450498176494683
+      spriteID: 0bcd343e061b4c990800000000000000
+      internalID: -7366568060783436624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Walking_Arms_4
+      name: Blue_Chest_Spritesheet_10
       rect:
         serializedVersion: 2
-        x: 125
+        x: 26
         y: 0
-        width: 25
-        height: 37
+        width: 11
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,20 +359,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00dd840b4ded2f050800000000000000
-      internalID: 5832969472470211840
+      spriteID: 46e0d173358b8af30800000000000000
+      internalID: 4587118888023297636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Walking_Arms_5
+      name: Blue_Chest_Spritesheet_11
       rect:
         serializedVersion: 2
-        x: 152
+        x: 46
         y: 0
-        width: 25
-        height: 37
+        width: 11
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,134 +380,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62dfe1bf0ae37b090800000000000000
-      internalID: -8018871750381077210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Walking_Arms_6
-      rect:
-        serializedVersion: 2
-        x: 181
-        y: 0
-        width: 31
-        height: 37
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 178a403a606ed0dd0800000000000000
-      internalID: -2518103700451055503
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Walking_Arms_7
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 0
-        width: 31
-        height: 37
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fadac22993d20ede0800000000000000
-      internalID: -1305994166648656465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Walking_Arms_8
-      rect:
-        serializedVersion: 2
-        x: 244
-        y: 0
-        width: 26
-        height: 37
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb7d7b5d0c94655b0800000000000000
-      internalID: -5380031612279334977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Walking_Arms_9
-      rect:
-        serializedVersion: 2
-        x: 274
-        y: 0
-        width: 27
-        height: 37
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6e465f93db166f00800000000000000
-      internalID: 1109604953918688878
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Walking_Arms_10
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 0
-        width: 29
-        height: 37
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ac7b6a8ceb12e9b0800000000000000
-      internalID: -5052445129207743324
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Walking_Arms_11
-      rect:
-        serializedVersion: 2
-        x: 337
-        y: 0
-        width: 29
-        height: 37
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6877423c15d445590800000000000000
-      internalID: -7686433650452957306
+      spriteID: a236d732e31c1ccd0800000000000000
+      internalID: -2539536242232696022
       vertices: []
       indices: 
       edges: []

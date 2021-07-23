@@ -4,15 +4,36 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public float maxSpeed;
+    public float accelerationSpeed;
+
+    private PlayerInput playerInput;
+    private Rigidbody2D myRb;
+    private Vector2 lastMovement;
+
+    private void Start()
     {
-        
+        playerInput = GetComponent<PlayerInput>();
+        myRb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void LateUpdate()
     {
-        
+        if (playerInput.myMovementInput == Vector2.zero || lastMovement != playerInput.myMovementInput)
+        {
+            myRb.velocity = Vector2.zero;
+
+        }
+
+        if (myRb.velocity.magnitude < maxSpeed)
+        {
+            myRb.AddForce(playerInput.myMovementInput * accelerationSpeed * Time.deltaTime, ForceMode2D.Force);
+        }
+
+
+
+        lastMovement = playerInput.myMovementInput;
     }
+
 }
