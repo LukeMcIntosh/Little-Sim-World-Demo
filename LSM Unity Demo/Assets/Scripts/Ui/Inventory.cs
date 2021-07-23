@@ -32,6 +32,8 @@ public class Inventory : MonoBehaviour
 
                     icon.myIcon.sprite = ClothingData.instance.allClothesScriptables[i].spritesWithDirctions[0].spritesForMyDirection[0];
                     icon.myItemsId = ClothingData.instance.allClothesScriptables[i].myId;
+                    icon.myType = ClothingData.instance.allClothesScriptables[i].myItemSlot;
+                    icon.inventory = this;
 
                     spawnedIcons.Add(icon);
                 }
@@ -45,6 +47,8 @@ public class Inventory : MonoBehaviour
 
                     icon.myIcon.sprite = ClothingData.instance.allClothesScriptables[i].spritesWithDirctions[0].spritesForMyDirection[0];
                     icon.myItemsId = ClothingData.instance.allClothesScriptables[i].myId;
+                    icon.myType = ClothingData.instance.allClothesScriptables[i].myItemSlot;
+                    icon.inventory = this;
 
                     spawnedIcons.Add(icon);
                 }
@@ -58,17 +62,29 @@ public class Inventory : MonoBehaviour
 
                     icon.myIcon.sprite = ClothingData.instance.allClothesScriptables[i].spritesWithDirctions[0].spritesForMyDirection[0];
                     icon.myItemsId = ClothingData.instance.allClothesScriptables[i].myId;
+                    icon.myType = ClothingData.instance.allClothesScriptables[i].myItemSlot;
+                    icon.inventory = this;
 
                     spawnedIcons.Add(icon);
                 }
 
-                //icon = go.GetComponent<ClothingIcon>();
+            }
 
-                //icon.myIcon.sprite = ClothingData.instance.allClothesScriptables[i].spritesWithDirctions[0].spritesForMyDirection[0];
-                //icon.myItemsId = ClothingData.instance.allClothesScriptables[i].myId;
+            SetEquipped();
+        }
+    }
 
-                //spawnedIcons.Add(icon);
+    public void SetEquipped()
+    {
+        for (int i = 0; i < spawnedIcons.Count; i++)
+        {
+            spawnedIcons[i].equippedImage.gameObject.SetActive(false);
 
+            if (spawnedIcons[i].myItemsId == PreferenceManager.CurrentChest  ||
+                spawnedIcons[i].myItemsId == PreferenceManager.CurrentHat ||
+                spawnedIcons[i].myItemsId == PreferenceManager.CurrentLegs)
+            {
+                spawnedIcons[i].equippedImage.gameObject.SetActive(true);
             }
         }
     }

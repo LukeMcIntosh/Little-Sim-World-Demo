@@ -36,12 +36,17 @@ public class PlayerClothingManager : MonoBehaviour
         //debug
         //PreferenceManager.CurrentChest = 3;
 
+
+        SetClothing();
+        //todo
+        currentInput = MOVE_DIRECTION.DOWN;
+    }
+
+    public void SetClothing()
+    {
         activeChest = ClothingData.instance.GetClothItem(PreferenceManager.CurrentChest);
         activeHead = ClothingData.instance.GetClothItem(PreferenceManager.CurrentHat);
         activeLegs = ClothingData.instance.GetClothItem(PreferenceManager.CurrentLegs);
-        
-        //todo
-        currentInput = MOVE_DIRECTION.DOWN;
     }
 
     public void SetCurrentInput(MOVE_DIRECTION c)

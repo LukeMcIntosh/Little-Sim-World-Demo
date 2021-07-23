@@ -9,17 +9,13 @@ public class ClothingData : MonoBehaviour
     public PlayerClothingManager clothingManager;
     public List<ClothItemScriptable> allClothesScriptables = new List<ClothItemScriptable>();
 
-   public Dictionary<ClothItemScriptable, bool> chestClothesAndUnlockState = new Dictionary<ClothItemScriptable, bool>();
-    public Dictionary<ClothItemScriptable, bool> legsClothesAndUnlockState = new Dictionary<ClothItemScriptable, bool>();
-   public Dictionary<ClothItemScriptable, bool> hatsClothesAndUnlockState = new Dictionary<ClothItemScriptable, bool>();
-
     public int startingChestId;
     public int startingLegsId;
     public int startingHatId;
 
     void OnEnable()
     {
-        PlayerPrefs.DeleteAll();
+
 
         if(instance == null)
         {
@@ -31,34 +27,7 @@ public class ClothingData : MonoBehaviour
             return;
         }
 
-        for (int i = 0; i < allClothesScriptables.Count; i++)
-        {
-            switch(allClothesScriptables[i].myItemSlot)
-            {
-                case ITEM_SLOT.CHEST:
-                    {
-                        if(!chestClothesAndUnlockState.ContainsKey(allClothesScriptables[i]))
-                        {
-                            chestClothesAndUnlockState.Add(allClothesScriptables[i],
-                                ToBool(PlayerPrefs.GetInt(allClothesScriptables[i].myId.ToString(), 0)));
-                        }
-                        break;
-                    }
-                case ITEM_SLOT.HEAD:
-                    {
-                        hatsClothesAndUnlockState.Add(allClothesScriptables[i],
-                            ToBool(PlayerPrefs.GetInt(allClothesScriptables[i].myId.ToString(), 0)));
-                        break;
-                    }
-                case ITEM_SLOT.LEGS:
-                    {
-                        legsClothesAndUnlockState.Add(allClothesScriptables[i],
-                            ToBool(PlayerPrefs.GetInt(allClothesScriptables[i].myId.ToString(), 0)));       
-                        break;
-                    }
-            }
-        }
-
+    
         if (PlayerPrefs.GetInt(startingChestId.ToString()) == 0)
         {
             PlayerPrefs.SetInt(startingChestId.ToString(), 1);
@@ -70,11 +39,6 @@ public class ClothingData : MonoBehaviour
             PlayerPrefs.SetInt(startingHatId.ToString(), 1);
             PreferenceManager.CurrentHat = startingHatId;
         }
-    }
-
-    private bool ToBool(int value)
-    {
-        return value > 0 ? true : false;
     }
 
     public ClothItemScriptable GetClothItem(int id)
