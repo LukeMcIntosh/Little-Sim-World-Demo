@@ -15,6 +15,7 @@ public class ClothingData : MonoBehaviour
 
     public int startingChestId;
     public int startingLegsId;
+    public int startingHatId;
 
     void OnEnable()
     {
@@ -62,8 +63,12 @@ public class ClothingData : MonoBehaviour
         {
             PlayerPrefs.SetInt(startingChestId.ToString(), 1);
             PreferenceManager.CurrentChest = startingChestId;
+
             PlayerPrefs.SetInt(startingLegsId.ToString(), 1);
             PreferenceManager.CurrentLegs = startingLegsId;
+
+            PlayerPrefs.SetInt(startingHatId.ToString(), 1);
+            PreferenceManager.CurrentHat = startingHatId;
         }
     }
 

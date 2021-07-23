@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b82cae480c50e9142a8e7322d175b733, type: 3}
+  m_Name: 8 Grey Hat
+  m_EditorClassIdentifier: 
+  myId: 8
+  myItemSlot: 0
+  spritesWithDirctions:
+  - myDirection: 1
+    spritesForMyDirection:
+    - {fileID: 8517448462682379279, guid: 21af882da67a20649a728c404d3f2263, type: 3}
+  - myDirection: 3
+    spritesForMyDirection:
+    - {fileID: -1611061746295468305, guid: 21af882da67a20649a728c404d3f2263, type: 3}
+  - myDirection: 0
+    spritesForMyDirection:
+    - {fileID: -954259417903896141, guid: 21af882da67a20649a728c404d3f2263, type: 3}
+  - myDirection: 2
+    spritesForMyDirection:
+    - {fileID: -8214801107219302268, guid: 21af882da67a20649a728c404d3f2263, type: 3}

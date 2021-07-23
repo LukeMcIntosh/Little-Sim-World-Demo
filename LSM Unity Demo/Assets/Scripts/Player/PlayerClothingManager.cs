@@ -33,6 +33,9 @@ public class PlayerClothingManager : MonoBehaviour
 
     private void Start()
     {
+        //debug
+        //PreferenceManager.CurrentChest = 3;
+
         activeChest = ClothingData.instance.GetClothItem(PreferenceManager.CurrentChest);
         activeHead = ClothingData.instance.GetClothItem(PreferenceManager.CurrentHat);
         activeLegs = ClothingData.instance.GetClothItem(PreferenceManager.CurrentLegs);

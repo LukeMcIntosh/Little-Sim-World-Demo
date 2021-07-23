@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b82cae480c50e9142a8e7322d175b733, type: 3}
+  m_Name: 7 Red Hat
+  m_EditorClassIdentifier: 
+  myId: 7
+  myItemSlot: 0
+  spritesWithDirctions:
+  - myDirection: 1
+    spritesForMyDirection:
+    - {fileID: 1957312897188625313, guid: 1658cd2c16eec7b45ba90ce26feda869, type: 3}
+  - myDirection: 3
+    spritesForMyDirection:
+    - {fileID: 5725614847562150119, guid: 1658cd2c16eec7b45ba90ce26feda869, type: 3}
+  - myDirection: 0
+    spritesForMyDirection:
+    - {fileID: -3164721547288362054, guid: 1658cd2c16eec7b45ba90ce26feda869, type: 3}
+  - myDirection: 2
+    spritesForMyDirection:
+    - {fileID: 1621117029657482227, guid: 1658cd2c16eec7b45ba90ce26feda869, type: 3}

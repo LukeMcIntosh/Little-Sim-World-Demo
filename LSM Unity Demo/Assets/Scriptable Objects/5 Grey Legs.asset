@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b82cae480c50e9142a8e7322d175b733, type: 3}
+  m_Name: 5 Grey Legs
+  m_EditorClassIdentifier: 
+  myId: 5
+  myItemSlot: 2
+  spritesWithDirctions:
+  - myDirection: 1
+    spritesForMyDirection:
+    - {fileID: 5247321850332772511, guid: 6c76b87c41878cd46b324d151edcf9a5, type: 3}
+    - {fileID: -9180402119395648295, guid: 6c76b87c41878cd46b324d151edcf9a5, type: 3}
+    - {fileID: 9205488077662316538, guid: 6c76b87c41878cd46b324d151edcf9a5, type: 3}
+  - myDirection: 3
+    spritesForMyDirection:
+    - {fileID: 8651204913028480585, guid: 6c76b87c41878cd46b324d151edcf9a5, type: 3}
+    - {fileID: -9152548186162693230, guid: 6c76b87c41878cd46b324d151edcf9a5, type: 3}
+    - {fileID: -1419997979180262366, guid: 6c76b87c41878cd46b324d151edcf9a5, type: 3}
+  - myDirection: 0
+    spritesForMyDirection:
+    - {fileID: 8931531671456662856, guid: 6c76b87c41878cd46b324d151edcf9a5, type: 3}
+    - {fileID: 4768490864612448103, guid: 6c76b87c41878cd46b324d151edcf9a5, type: 3}
+    - {fileID: -3846674750572696617, guid: 6c76b87c41878cd46b324d151edcf9a5, type: 3}
+  - myDirection: 2
+    spritesForMyDirection:
+    - {fileID: -7643573449331580212, guid: 6c76b87c41878cd46b324d151edcf9a5, type: 3}
+    - {fileID: -7474858705348606961, guid: 6c76b87c41878cd46b324d151edcf9a5, type: 3}
+    - {fileID: -4020728755109610573, guid: 6c76b87c41878cd46b324d151edcf9a5, type: 3}
