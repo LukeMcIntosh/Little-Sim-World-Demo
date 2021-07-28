@@ -4,76 +4,82 @@ using System.Collections.Generic;
 public class PreferenceManager
 {
 
-//    public static void UpdateACollectable(int id, int value)
-//    {
-//        switch (id)
-//        {
-//            case 1:
-//                {
-//                    CollectableOne += value;
-//                    break;
-//                }
+    //public static void UpdateAClothOwnership(ITEM_SLOT slot, int id, int value)
+    //{
+    //    switch (slot)
+    //    {
+    //        case ITEM_SLOT.CHEST:
+    //            {
+    //                if(id == )
+    //                break;
+    //            }
 
-//            case COLLECTABLE_TYPE.COLLECTABLE_TWO:
-//                {
-//                    CollectableTwo += value;
-//                    break;
-//                }
-//        }
+    //        case ITEM_SLOT.LEGS:
+    //            {
+    //                CollectableTwo += value;
+    //                break;
+    //            }
 
+    //        case ITEM_SLOT.HEAD:
+    //            {
 
-//    }
-//    public static int GetACollectable(COLLECTABLE_TYPE type)
-//    {
-//        int rtnVal = 0;
-//        switch (type)
-//        {
-//            case COLLECTABLE_TYPE.COLLECTABLE_ONE:
-//                {
-//                    rtnVal = CollectableOne;
-//                    break;
-//                }
-
-//            case COLLECTABLE_TYPE.COLLECTABLE_TWO:
-//                {
-//                    rtnVal = CollectableTwo;
-//                    break;
-//                }
-//        }
-//        return rtnVal;
+    //                break;
+    //            }
+    //    }
 
 
-//    }
+    //}
+    //public static int GetAClothOwnership(COLLECTABLE_TYPE type)
+    //{
+    //    int rtnVal = 0;
+    //    switch (type)
+    //    {
+    //        case COLLECTABLE_TYPE.COLLECTABLE_ONE:
+    //            {
+    //                rtnVal = CollectableOne;
+    //                break;
+    //            }
 
-//    static string COLLECTABLE_ONE = "COLLECTABLE_ONE";
-//    public static int CollectableOne
-//    {
-//        get
-//        {
-//            return PlayerPrefs.GetInt(COLLECTABLE_ONE, 0);
-//        }
+    //        case COLLECTABLE_TYPE.COLLECTABLE_TWO:
+    //            {
+    //                rtnVal = CollectableTwo;
+    //                break;
+    //            }
+    //    }
+    //    return rtnVal;
 
-//        set
-//        {
-//            PlayerPrefs.SetInt(COLLECTABLE_ONE, value);
-//        }
-//    }
 
-//    static string COLLECTABLE_TWO = "COLLECTABLE_TWO";
-//    public static int CollectableTwo
-//    {
-//        get
-//        {
-//            return PlayerPrefs.GetInt(COLLECTABLE_TWO, 0);
-//        }
+    //}
 
-//        set
-//        {
-//            PlayerPrefs.SetInt(COLLECTABLE_TWO, value);
-//        }
-//    }
+    //static string COLLECTABLE_ONE = "COLLECTABLE_ONE";
+    //public static int CollectableOne
+    //{
+    //    get
+    //    {
+    //        return PlayerPrefs.GetInt(COLLECTABLE_ONE, 0);
+    //    }
 
-static string CURRENT_HAT = "CURRENT_HAT";
+    //    set
+    //    {
+    //        PlayerPrefs.SetInt(COLLECTABLE_ONE, value);
+    //    }
+    //}
+
+    //static string COLLECTABLE_TWO = "COLLECTABLE_TWO";
+    //public static int CollectableTwo
+    //{
+    //    get
+    //    {
+    //        return PlayerPrefs.GetInt(COLLECTABLE_TWO, 0);
+    //    }
+
+    //    set
+    //    {
+    //        PlayerPrefs.SetInt(COLLECTABLE_TWO, value);
+    //    }
+    //}
+
+    static string CURRENT_HAT = "CURRENT_HAT";
 public static int CurrentHat
 {
     get

@@ -114,7 +114,7 @@ public class PlayerClothingManager : MonoBehaviour
                 }
             }
 
-            Debug.Log(legRenderer.sprite.name);
+            
         }
 
     }

@@ -5,31 +5,31 @@ using UnityEngine.UI;
 
 public class ClothingIcon : MonoBehaviour
 {
-    public Inventory inventory;
+    [Header("LINKS")]
+    public UiPanelBase owner;
     public Image myIcon;
-    public ITEM_SLOT myType;
     public Image equippedImage;
+    public Image sellImage;
+    public Image buyImage;
+    public Image CoverImage;
+
+    [Header("RUNTIME")]
+    public ITEM_SLOT myType;
     public int myItemsId;
+
+    private bool isInShop;
+
+    public void SetUpIcon( bool _isInShop, ITEM_SLOT _myType, int _myItemsId, Sprite _myIconImage)
+    {
+        isInShop = _isInShop;
+        myType = _myType;
+        myItemsId = _myItemsId;
+        myIcon.sprite = _myIconImage;
+    }
 
     public void OnClicked()
     {
-        if(myType == ITEM_SLOT.CHEST)
-        {
-            PreferenceManager.CurrentChest = myItemsId;
-        }
-
-        if (myType == ITEM_SLOT.LEGS)
-        {
-            PreferenceManager.CurrentLegs = myItemsId;
-        }
-
-        if (myType == ITEM_SLOT.HEAD)
-        {
-            PreferenceManager.CurrentHat = myItemsId;
-        }
-
-        ClothingData.instance.clothingManager.SetClothing();
-        inventory.SetEquipped();
+        owner.OnIconClicked(this);
     }
 
 }
